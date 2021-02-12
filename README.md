@@ -2,7 +2,9 @@
 
 ### What is it? ###
 * ODT2XHTML is a small library for converting documents in Open Document Format to HTML. 
-Based on heavily refactored code from [Odt2Xhtml library](https://github.com/hucste/Odt2Xhtml) by Stéphane HUC
+* Supports most ODF text formatting features including embedded images, lists, tables, subscripts, supescripts, etc.
+* <i>Based on heavily refactored code from [Odt2Xhtml library](https://github.com/hucste/Odt2Xhtml) by Stéphane HUC. 
+Example ODF files are taken from original library</i>
 
 ### How to use it? ###
 * Add ODT2XHTML to your project `composer require lebedevsergey/odt2xhtml`
@@ -10,13 +12,12 @@ Based on heavily refactored code from [Odt2Xhtml library](https://github.com/huc
 * call `convert` method: `$converter->convert($ODTFilePath, $ODTHTMLPath, true);`
 
 where: 
-
 - `$ODTFilePath` - path to Open Office document to convert
 - `$ODTHTMLPath` - path to the resulted HTML folder, HTML file name will be the same as the Open Office document file name
 but with `.html` extension
 - the third value is the boolean flag whether resulted CSS styles will be embedded into generated HTML file or will be in a separate CSS file 
 
-See also an included example code in `example.php`, example ODF files are taken from original [Odt2Xhtml library](https://github.com/hucste/Odt2Xhtml)
+See also included example code in `example.php`.
 
 ### What else? ###
 * supports files in: 
