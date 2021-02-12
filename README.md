@@ -25,8 +25,8 @@ See also an included example code in `example.php`, example ODF files are taken 
 * PHP 5.6 or higher is required
 
 ### Authors? ###
-* &copy; 2007-2011 Stéphane HUC
-* &copy; 2020 Sergey Lebedev
+* base code &copy; 2007-2011 Stéphane HUC
+* &copy; 2020 Sergey Lebedev, licensed under the Apache License, Version 2.0
 * Feel free to contact me at:
     * https://habrahabr.ru/users/sunman/
     * http://stackoverflow.com/users/7135046/sergeylebedev
